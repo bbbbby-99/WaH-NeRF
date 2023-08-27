@@ -15,6 +15,7 @@ Clone this repository:
   ```
 ## Dataset
   ```js
-  |---->data
-      |---->nerf_synthetic
+|--->WaH-NeRF
+    |--->data
+        |--->nerf_synthetic
   ```
