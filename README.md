@@ -12,10 +12,35 @@ Clone this repository:
   ```js
   git clone https://github.com/bbbbby-99/WaH-NeRF.git
   cd WaH-NeRF
+  conda env create -f mipNeRF.yml
   ```
 ## Dataset
   ```js
-|--->WaH-NeRF
-    |--->data
-        |--->nerf_synthetic
+  |--->WaH-NeRF
+      |--->data
+          |--->nerf_synthetic
+  ```
+
+## Usage
+### Training
+  ```js
+  python train.py
+  ```
+### Rendering
+  ```js
+  python visualize.py
+  ```
+### Evaluation
+  ```js
+  python eval_metrics_script.py
+  ```
+## Cite this work
+If you find our work / code implementation useful for your own research, please cite our paper.
+```js
+  @article{bao2023and,
+  title={Where and How: Mitigating Confusion in Neural Radiance Fields from Sparse Inputs},
+  author={Bao, Yanqi and Li, Yuxin and Huo, Jing and Ding, Tianyu and Liang, Xinyue and Li, Wenbin and Gao, Yang},
+  journal={arXiv preprint arXiv:2308.02908},
+  year={2023}
+}
   ```
