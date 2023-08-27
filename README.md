@@ -34,6 +34,9 @@ Clone this repository:
   ```js
   python eval_metrics_script.py
   ```
+## Results
+<img src="https://github.com/bbbbby-99/WaH-NeRF/blob/main/image/video.gif" alt="Lego GIF" width="200" />
+
 ## Cite this work
 If you find our work / code implementation useful for your own research, please cite our paper.
 ```js
