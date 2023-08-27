@@ -8,7 +8,13 @@ Neural Radiance Fields from Sparse inputs (NeRF-S) have shown great potential in
 ![Pipeline in WaHNeRF](https://github.com/bbbbby-99/WaH-NeRF/blob/main/image/framework.png)
 
 ## Installation
+Clone this repository:
   ```js
   git clone https://github.com/bbbbby-99/WaH-NeRF.git
   cd WaH-NeRF
+  ```
+## Dataset
+  ```js
+  |---->data
+      |---->nerf_synthetic
   ```
